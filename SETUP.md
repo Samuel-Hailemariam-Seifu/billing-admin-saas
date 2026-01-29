@@ -112,3 +112,4 @@ uvicorn app.main:app --reload
 - **Port conflicts**: Change ports in `docker-compose.yml` if 8000, 5432, or 6379 are in use
 - **Migration errors**: Make sure database is running before running migrations
 
+
